@@ -10,3 +10,81 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
+
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.o
+*.so
+
+.project  
+.classpath
+.settings/
+target/
+*target*
+*.ear
+
+
+bin/
+test-output/*
+test-output
+test-output-EmailReport/*
+test-output-EmailReport
+test-output-GoogleParserReport/*
+test-output-GoogleParserReport
+testngReports/*
+testngReports
+testngXsltReports/*
+testngXsltReports
+failure_screenshots/*
+failure_screenshots
+
+# eclipse specific git ignore
+#############################
+*.pydevproject
+.metadata
+bin/*
+bin
+build
+build/*
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+.idea
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/bin
